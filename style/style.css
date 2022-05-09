@@ -1,5 +1,77 @@
-@import url(../Fonts/Mobsters.ttf);
-
+@font-face {
+    font-family: mobsters;
+    src: url(../Fonts/Mobsters.ttf);
+}
+@media only screen and (max-width: 600px) {
+    header.Conteiner {
+      width: 480px;
+    }
+  }
+.body {
+    margin: 0;
+}
+.sconteiner {
+    width: 1366px;
+    height: 117px;
+    display: flex;
+    justify-content: center;
+}
+.hrow {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
 .hlogo {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 1%;
+}
+.hh {
+    font-family: mobsters;
+    font-weight: lighter;
+    color: white;
+    font-size: 200%;
+}
+.hnavi {
+    display: flex;
+    align-items: center;
+}
+.hul {
+    list-style: none;
+    display: flex;
+}
+.hlist {
+    margin-right: 13.375%;
+    font-family: mobsters;
+    font-size: 200%;
+    color: white;
+}
+.hbuttons {
+    width: 20%;
+}
+.hsing {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+    left: 10%;
+}
+.singin {
+    font-family: mobsters;
+    width: 50%;
+    height: 25%;
+    font-size: 100%;
+}
+.hregistration {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+    left: 10%;
+}
+.registration {
+    font-family: mobsters;
+    width: 60%;
+    height: 25%;
+    font-size: 100%;
 }
